@@ -25,7 +25,7 @@ if "logged_in" not in st.session_state:
     st.session_state["logged_in"] = False
 
 # Set up the Google AI API key in the environment
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAC4suIL1NicqbXGld93eLxEr5z5HxviZU"
+os.environ["GOOGLE_API_KEY"] = "paste_your_api_key_here"
 
 # Initialize user data JSON if it doesn't exist
 if not os.path.exists(USER_DATA_FILE):
